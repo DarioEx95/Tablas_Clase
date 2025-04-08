@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: rgb(92, 160, 248);
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: peru;
+    color: aliceblue;
+    text-decoration: black;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 150px;
+}
+tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, tr{
+    padding: 10px;
+}
+.encabezado{
+    background-color: rgb(9, 132, 134);
+    color: aliceblue;
+}
+.nav3{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: rgb(180, 180, 180);
+}
+.nav2{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: rgb(180, 180, 180);
+}
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: #d8d8d8;
+}
+nav{
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.perfil{
+    margin-left: 1400px;
+}
+nav img{
+    width: 150px;
+}
+ .h1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
